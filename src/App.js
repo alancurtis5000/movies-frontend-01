@@ -5,7 +5,6 @@ import AppRouter from './AppRouter';
 function App() {
   return (
     <div className="App">
-      <p>Movies</p>
       <AppRouter />
     </div>
   );
