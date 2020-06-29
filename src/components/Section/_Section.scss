@@ -5,7 +5,7 @@
   height: 500px;
   .header {
     display: grid;
-    grid-template-columns: 1fr auto 8fr;
+    grid-template-columns: 40px auto 1fr;
     grid-gap: 5px;
     .separator {
       height: 100%;
