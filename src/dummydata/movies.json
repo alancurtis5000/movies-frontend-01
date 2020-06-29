@@ -1,0 +1,14 @@
+[
+  {
+    "id": 0,
+    "title": "Irresitible",
+    "key": "irresitable",
+    "rating": 1,
+    "rated": "PG-13",
+    "release_date": "05-23-2020",
+    "director":["Mark Twain"],
+    "plot": "this is the plot",
+    "images": "/movies/irresitable/images",
+    "videos": "/movies/irresitable/videos"
+  }
+]
