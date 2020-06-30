@@ -1,6 +1,6 @@
 .MovieDetails {
   background-color: cadetblue;
-  .container {
+  >.container {
     margin: 0 auto;
     display: grid;
     grid-template-columns: 300px 1fr;
