@@ -22,13 +22,8 @@ const MovieSummary = (props) => {
             <div>{props.consensus}</div>
           </div>
           <div className="rating">
-              <FiveStarSVG size={200} amount={1} id="one"/>
-              <FiveStarSVG size={200} amount={.8} id="two"/>
-              <FiveStarSVG size={200} amount={.75} id="three"/>
-              <FiveStarSVG size={200} amount={.25} id="four"/>
-              <FiveStarSVG size={200} amount={.1} id="five" />
-              {props.rating}
-              <div className="amount">Total Count: {props.rating_count}</div>
+              <FiveStarSVG size={200} amount={props.rating} id="starSVG"/>
+              <div className="amount">{props.rating_count} ratings</div>
           </div>
         </div>
       </div>
