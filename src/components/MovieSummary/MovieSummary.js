@@ -1,15 +1,17 @@
 import React from 'react';
 import FiveStarSVG from '../../icons/FiveStarSVG';
+import PlaySVG from '../../icons/PlaySVG';
 
 const MovieSummary = (props) => {
   return(
     <div className="MovieSummary">
       <div className="container">
         <div className="trailer">
-          <img src="/movies/irresitable/images/trailer_01.jpg" alt=""/>
+          <PlaySVG size={90}/>
+          <img src={`/Content/Movies/${props.key}/Images/trailer_01.jpg`} alt="trailer"/>
         </div>
         <div className="cover">
-          <img src="/movies/irresitable/images/cover_01.jpg" alt=""/> 
+          <img src={`/Content/Movies/${props.key}/Images/cover_01.jpg`} alt="cover"/> 
         </div>
         <div className="content">
           <div className="header">
