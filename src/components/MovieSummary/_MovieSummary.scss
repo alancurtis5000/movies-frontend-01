@@ -10,6 +10,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      @extend .hover;
       svg{
         position: absolute;
         margin: auto auto;
