@@ -22,10 +22,7 @@ const FiveStarSVG =(props)=>{
   let quotient = Math.floor(howManyStars);
   let decimal = howManyStars - Math.floor(howManyStars) ;
   
-  console.log({amount, howManyStars, quotient, decimal});
-
   for ( let x = 0; x <= quotient; x++ ){
-    console.log(x);
     stars[`s${x}`] = x;
   }
   if (decimal > 0 ){
