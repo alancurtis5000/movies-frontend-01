@@ -19,4 +19,9 @@ const ButtonArrow = (props) => {
   )
 }
 
+ButtonArrow.defaultProps = {
+  direction:"right",
+  handleClick: ()=>{console.log("clicked")}
+}
+
 export default ButtonArrow;

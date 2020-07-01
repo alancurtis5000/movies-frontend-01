@@ -1,8 +1,27 @@
 .Carousel {
   background-color: brown;
-  width: 100%;
+  width: inherit;
   display: grid;
   grid-template-columns: auto 1fr auto;
   justify-content: center;
   align-items: center;
+ 
+  .content {
+    margin: 6px 0 ;
+    overflow: hidden;
+    display: flex;
+    line-height: 0;
+    >.content-container{
+      height: 90px;
+      width: 160px;
+      margin: 0 6px;
+      overflow: hidden;
+
+      img{
+        width: 300px;
+        height: 200px;
+
+      }
+    }
+  }
 }
